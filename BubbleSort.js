@@ -12,16 +12,16 @@ export default class BubbleSort {
   }
   
   bubbleSort() {
-    console.log('bs', this.arr);
+    //console.log('bs', this.arr);
     for (let outer = this.arr.length; outer >= 2; --outer) {
-      console.log('for1');
+      //console.log('for1');
       for (let inner = 0; inner <= outer-1; ++inner) {
         if (this.arr[inner] > this.arr[inner+1]) {
-          console.log('pp');
+          //console.log('pp');
           this.swap(this.arr, inner, inner+1);
         }
       }
     }
-    console.log('bs-end', this.arr);
+    //console.log('bs-end', this.arr);
   }
 }
