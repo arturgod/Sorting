@@ -5,12 +5,6 @@ export default class Shellsort {
     this.gaps = [5,3,1];
   };
   
-  swap(arr, index1, index2) {
-    const temp = arr[index1];
-    arr[index1] = arr[index2];
-    arr[index2] = temp;
-  }
-  
   shellSort() {
     
     //console.log('ss', this.arr);

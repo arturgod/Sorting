@@ -6,11 +6,11 @@ import SelectionSort from './SelectionSort.js';
 import InsertionSort from './InsertionSort.js';
 import Shellsort from './Shellsort.js';
 
-const testArray = new TestArray(1000000);
+const testArray = new TestArray(1000);
 const testArrayBD = new TestArray(10000);
 const testArraySS = new TestArray(10000);
 const testArrayIS = new TestArray(1000000);
-const testArraySs = new TestArray(1000000);
+const testArraySs = new TestArray(1000);
 
 const buildInLog = new CheckTime('build-in');
 const bubbleSortLog = new CheckTime('bubble sort');
